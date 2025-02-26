@@ -12,11 +12,26 @@ XXL -> >=1400 `[Maior ou igual a 1400px]`. é utilizado para telas de desktop.
 `col` -> classe do bootstrap que informa como aquele componente vai se comportar dependendo da tela que está acessando.
 * Pode ser utilizada com os breakpoints e com a quantidade de colunas que o componente ocupa. Ex: `col-md-6`
 `container` -> classe do bootstrap que informa que você irá encapsular outros componentes ou tags.
+`mx-auto` -> é uma classe do bootstrap onde `m` significa margin, `x` significa os lados e `auto` significa automático.
+`p` -> classe que significa padding.
+`m` -> classe que significa margin.
+
+`x` -> inclui espaçamento para os lados.
+`y` -> inclui espaçamento para cima/baixo.
+`b` -> inclui espaçamento para baixo.
+`t` -> inclui espaçamento para cima.
+`e` -> inclui espaçamento para direita.
+`s` -> inclui espaçamento para esquerda.
+
+`g` -> inclui uma distância igual entre os componentes. (gap).
+
 
 
 
 
 # Desafio
 1. Quando o dispositivo acessado for um desktop acima de 1400px, deverá ser apresentado 4 cards na tela por linha.
+12/4 -> 3
 
 2. Quando o dispositivo acessado for um tablet acima de 768px, deverá ser apresentado 3 cards ne tela por linha.
+12/3 -> 4
